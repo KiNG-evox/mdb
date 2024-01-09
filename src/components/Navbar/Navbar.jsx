@@ -1,13 +1,13 @@
+import SearchBar from "../SearchBar"
+import './style.css'
+
 export default function Navbar() {
   return (
 <nav class="navbar bg-dark border-bottom border-body p-2" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand">Navbar</a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-    <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
+    <a class="navbar-brand">MDB</a>
+      <SearchBar/>
+    <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-nowrap">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
