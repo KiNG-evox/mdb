@@ -1,0 +1,43 @@
+.nav-item .nav-link {
+    color: #fff;
+  }
+
+  .navbar{
+    background-color: rgb(138, 155, 232);
+  }
+  
+.nav-item .nav-link:hover {
+    background-color: rgb(224, 222, 255);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: rgb(46, 52, 78);
+  }
+  
+  .fa-li {
+    position: relative;
+    left: 0;
+  }
+
+.S-ham-b-icon {
+    color: #fff; 
+}
+.S-ham-b-icon:hover {
+
+    color: rgb(66, 66, 90);
+}
+
+.S-ham-b {
+    margin: 0; 
+}
+.S-ham-b:hover {
+  background-color: rgba(74, 74, 84, 0.347);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+}
+
+.S-ham-b:focus {
+    background-color: rgba(156, 138, 138, 0.361);
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.25rem;
+    color: #ffffff9e;
+}
